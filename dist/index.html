@@ -17,32 +17,163 @@
       <div class="h-min-screen bg-blue-50 px-4 pb-12">
         <!-- App Bar -->
         <div class="flex items-center gap-5 bg-white p-4 text-gray-900">
-          <a href="#" class="hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-400" onclick="history.back()">
-            <span class="i-material-symbols-arrow-left-alt-rounded text-icon-md block"></span>
+          <a
+            href="#"
+            class="hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-400"
+            onclick="history.back()"
+          >
+            <span
+              class="i-material-symbols-arrow-left-alt-rounded block text-icon-md"
+            ></span>
           </a>
-          <p class="text-lg font-semibold">untitled</p>
+          <p class="text-lg font-semibold">APPRAISAL TEST UI</p>
         </div>
         <!-- ./ App Bar -->
         <div class="h-8"></div>
         <!-- Nav Bar -->
-         <div class="flex justify-evenly bg-white">
-            <a href="#" class="w-full group flex flex-col items-center focus:outline-none focus:ring-2 focus:ring-green-400 p-3 text-gray-900 hover:bg-gray-50">
-              <span class="i-material-symbols-home-outline-rounded text-icon-md inline group-hover:hidden"></span>
-              <span class="i-material-symbols-home-rounded text-icon-md hidden group-hover:inline"></span>
-              <span class="text-xs font-semibold">Beranda</span>
-            </a>
-            <a href="#" class="w-full group flex flex-col items-center focus:outline-none focus:ring-2 focus:ring-green-400 p-3 text-gray-900 hover:bg-gray-50">
-              <span class="i-material-symbols-receipt-outline-rounded text-icon-md inline group-hover:hidden"></span>
-              <span class="i-material-symbols-receipt-rounded text-icon-md hidden group-hover:inline"></span>
-              <span class="text-xs font-semibold">Riwayat</span>
-            </a>
-            <a href="#" class="w-full group flex flex-col items-center focus:outline-none focus:ring-2 focus:ring-green-400 p-3 text-gray-900 hover:bg-gray-50">
-              <span class="i-material-symbols-person-outline-rounded text-icon-md inline group-hover:hidden"></span>
-              <span class="i-material-symbols-person-rounded text-icon-md hidden group-hover:inline"></span>
-              <span class="text-xs font-semibold">Akun</span>
-            </a>
-         </div>
+        <div class="flex justify-evenly bg-white">
+          <a
+            href="#"
+            class="group flex w-full flex-col items-center p-3 text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-400"
+          >
+            <span
+              class="i-material-symbols-home-outline-rounded inline text-icon-md group-hover:hidden"
+            ></span>
+            <span
+              class="i-material-symbols-home-rounded hidden text-icon-md group-hover:inline"
+            ></span>
+            <span class="text-xs font-semibold">Beranda</span>
+          </a>
+          <a
+            href="#"
+            class="group flex w-full flex-col items-center p-3 text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-400"
+          >
+            <span
+              class="i-material-symbols-receipt-outline-rounded inline text-icon-md group-hover:hidden"
+            ></span>
+            <span
+              class="i-material-symbols-receipt-rounded hidden text-icon-md group-hover:inline"
+            ></span>
+            <span class="text-xs font-semibold">Riwayat</span>
+          </a>
+          <a
+            href="#"
+            class="group flex w-full flex-col items-center p-3 text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-400"
+          >
+            <span
+              class="i-material-symbols-person-outline-rounded inline text-icon-md group-hover:hidden"
+            ></span>
+            <span
+              class="i-material-symbols-person-rounded hidden text-icon-md group-hover:inline"
+            ></span>
+            <span class="text-xs font-semibold">Akun</span>
+          </a>
+        </div>
         <!-- ./ Nav Bar -->
+        <div class="h-8"></div>
+        <!-- Button Primary-->
+        <div>
+          <h1 class="text-center text-2xl text-gray-900">Button Primary</h1>
+          <!-- Button Primary Large -->
+          <button
+            type="button"
+            class="inline-flex items-center gap-2 rounded-xl bg-brands-light-green p-2.5 text-sm font-semibold uppercase text-white hover:bg-brands-dark-green focus:outline-none focus:ring-2 focus:ring-green-400 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400"
+          >
+            <span
+              class="i-material-symbols-download-rounded text-icon-md"
+            ></span>
+            <span>My Button</span>
+            <span
+              class="i-material-symbols-download-rounded text-icon-md"
+            ></span>
+          </button>
+          <!-- ./ Button Primary Large -->
+          <!-- Button Primary Small -->
+          <button
+            type="button"
+            class="inline-flex items-center gap-2 rounded-xl bg-brands-light-green p-2 text-xs font-semibold uppercase text-white hover:bg-brands-dark-green focus:outline-none focus:ring-2 focus:ring-green-400 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-400"
+          >
+            <span
+              class="i-material-symbols-download-rounded text-icon-sm"
+            ></span>
+            <span>My Button</span>
+            <span
+              class="i-material-symbols-download-rounded text-icon-sm"
+            ></span>
+          </button>
+          <!-- ./ Button Primary Small -->
+        </div>
+        <!-- ./ Button Primary -->
+
+        <div class="h-8"></div>
+        <!-- Button Outline-->
+        <div>
+          <h1 class="text-center text-2xl text-gray-900">Button Outline</h1>
+          <!-- Button Outline Large -->
+          <button
+            type="button"
+            class="inline-flex items-center gap-2 rounded-xl border-2 border-brands-light-green bg-transparent p-2.5 text-sm font-semibold uppercase text-brands-light-green hover:bg-brands-light-green hover:text-white focus:outline-none focus:ring-2 focus:ring-green-400 disabled:cursor-not-allowed disabled:border-gray-300 disabled:bg-transparent disabled:text-gray-400"
+          >
+            <span
+              class="i-material-symbols-download-rounded text-icon-md"
+            ></span>
+            <span>My Button</span>
+            <span
+              class="i-material-symbols-download-rounded text-icon-md"
+            ></span>
+          </button>
+          <!-- ./ Button Outline Large -->
+          <!-- Button Outline Small -->
+          <button
+            type="button"
+            class="inline-flex items-center gap-2 rounded-xl border-2 border-brands-light-green bg-transparent p-2 text-xs font-semibold uppercase text-brands-light-green hover:bg-brands-light-green hover:text-white focus:outline-none focus:ring-2 focus:ring-green-400 disabled:cursor-not-allowed disabled:border-gray-300 disabled:bg-transparent disabled:text-gray-400"
+          >
+            <span
+              class="i-material-symbols-download-rounded text-icon-sm"
+            ></span>
+            <span>My Button</span>
+            <span
+              class="i-material-symbols-download-rounded text-icon-sm"
+            ></span>
+          </button>
+          <!-- ./ Button Outline Small -->
+        </div>
+        <!-- ./ Button Outline -->
+
+        <div class="h-8"></div>
+        <!-- Button Secondary-->
+        <div>
+          <h1 class="text-center text-2xl text-gray-900">Button Secondary</h1>
+          <!-- Button Secondary Large -->
+          <button
+            type="button"
+            class="inline-flex items-center gap-2 rounded-xl border-2 border-brands-light-green bg-transparent p-2.5 text-sm font-semibold uppercase text-brands-light-green hover:bg-brands-light-green hover:text-white focus:outline-none focus:ring-2 focus:ring-green-400 disabled:cursor-not-allowed disabled:border-gray-300 disabled:bg-transparent disabled:text-gray-400"
+          >
+            <span
+              class="i-material-symbols-download-rounded text-icon-md"
+            ></span>
+            <span>My Button</span>
+            <span
+              class="i-material-symbols-download-rounded text-icon-md"
+            ></span>
+          </button>
+          <!-- ./ Button Secondary Large -->
+          <!-- Button Secondary Small -->
+          <button
+            type="button"
+            class="inline-flex items-center gap-2 rounded-xl border-2 border-brands-light-green bg-transparent p-2 text-xs font-semibold uppercase text-brands-light-green hover:bg-brands-light-green hover:text-white focus:outline-none focus:ring-2 focus:ring-green-400 disabled:cursor-not-allowed disabled:border-gray-300 disabled:bg-transparent disabled:text-gray-400"
+          >
+            <span
+              class="i-material-symbols-download-rounded text-icon-sm"
+            ></span>
+            <span>My Button</span>
+            <span
+              class="i-material-symbols-download-rounded text-icon-sm"
+            ></span>
+          </button>
+          <!-- ./ Button Secondary Small -->
+        </div>
+        <!-- ./ Button Secondary -->
       </div>
     </div>
   </body>
