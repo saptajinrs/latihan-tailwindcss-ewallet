@@ -746,12 +746,12 @@ video {
   justify-content: space-evenly;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-xl {
@@ -777,13 +777,21 @@ video {
   background-color: rgb(21 171 142 / var(--tw-bg-opacity, 1));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-transparent {
-  background-color: transparent;
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-2\.5 {
+  padding: 0.625rem;
 }
 
 .p-3 {
@@ -792,14 +800,6 @@ video {
 
 .p-4 {
   padding: 1rem;
-}
-
-.p-2\.5 {
-  padding: 0.625rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-4 {
@@ -815,10 +815,6 @@ video {
   text-align: center;
 }
 
-.font-brand {
-  font-family: Red Rose, serif;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -828,14 +824,13 @@ video {
   font-size: 24px;
 }
 
+.text-icon-sm {
+  font-size: 20px;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .text-sm {
@@ -843,8 +838,9 @@ video {
   line-height: 1.25rem;
 }
 
-.text-icon-sm {
-  font-size: 20px;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-semibold {
@@ -853,6 +849,11 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.text-brands-light-green {
+  --tw-text-opacity: 1;
+  color: rgb(21 171 142 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-900 {
@@ -865,16 +866,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-brands-light-green {
-  --tw-text-opacity: 1;
-  color: rgb(21 171 142 / var(--tw-text-opacity, 1));
-}
-
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:bg-brands-dark-green:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 136 113 / var(--tw-bg-opacity, 1));
@@ -885,19 +876,29 @@ video {
   background-color: rgb(21 171 142 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-gray-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-emerald-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 253 245 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
-.hover\:text-brands-dark-green:hover {
-  --tw-text-opacity: 1;
-  color: rgb(17 136 113 / var(--tw-text-opacity, 1));
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-brands-light-green:hover {
+  --tw-text-opacity: 1;
+  color: rgb(21 171 142 / var(--tw-text-opacity, 1));
 }
 
 .focus\:outline-none:focus {
