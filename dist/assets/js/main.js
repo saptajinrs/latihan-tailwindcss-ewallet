@@ -70,9 +70,8 @@ const showAccountCheck = () => {
 }
 
 const showSearchContact = () => {
-  alert("cooopsss")
-  //   toggleModalContent("searchContact")
-  //   pushBackHistory("modal-content--search-contact")
+  toggleModalContent("searchContact")
+  pushBackHistory("modal-content--search-contact")
 }
 
 const showInputNominal = () => {
